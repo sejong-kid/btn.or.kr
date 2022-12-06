@@ -44,25 +44,37 @@ button {
 }
 
 @media (max-width: 700px ) {
+  body {
+    text-align: center;
+  }
   .title {
-    margin-top: 300px;
-    font-size: 100px;
-    word-spacing: -2px;
+    margin-top: 100px;
+    font-size: 70px;
     font-family: 'PyeongChangPeace-Bold';
     color: rgb(29, 29, 29);
   }
   .sub_title {
     margin-top: 20px;
-    font-size: 16px;
   }
   .key_body {
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+  .key_value {
+    width: 320px;
+
   }
   button {
     width: 40px;
     height: 40px;
-    margin-left: 2px;
     margin-top: 20px;
+  }
+  li {
+    float: left;    
+    margin-right: -35px;
+  }
+  #s1 {
+    width: 30px;
+    height: 40px;
   }
 }
 @media screen and (orientation: portrait){
@@ -70,7 +82,7 @@ button {
     content: '아래의 키보드 자판을 터치해 주세요';
     font-family: 'GmarketSansMedium';
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     word-spacing: -3px;
   }
 }
