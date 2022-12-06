@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  margin-top: 110px;
+  font-size: 100PX;
+  font-family: 'GongGothicMedium';
+}
+
+.sub_title {
+  margin-top: -10px;
+  font-size: 48px;
+  font-family: 'GmarketSansMedium';
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Pretendard-Regular';
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.249);
+  transition: all .5s ease;
+}
+
+.key_body {
+  margin-top: -20px;
+}
+
+.pressed {
+  background: tomato;
+  transform: scale(1.2);
+}
