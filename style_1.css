@@ -10,8 +10,9 @@ body {
 }
 
 .sub_title {
-  margin-top: -10px;
-  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 30px;
   font-family: 'GmarketSansMedium';
 }
 
@@ -20,16 +21,16 @@ li {
 }
 
 button {
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   margin-top: 20px;
   margin-left: 20px;
   border: none;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 30px;
   font-family: 'Pretendard-Regular';
   background-color: rgb(255, 255, 255);
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.249);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.467);
   transition: all .5s ease;
   text-transform: uppercase;
 }
@@ -43,52 +44,13 @@ button {
   transform: scale(1.2);
 }
 
-@media (max-width: 700px ) {
-  body {
-    text-align: center;
-  }
-  .title {
-    margin-top: 100px;
-    font-size: 70px;
-    font-family: 'PyeongChangPeace-Bold';
-    color: rgb(29, 29, 29);
-  }
-  .sub_title {
-    margin-top: 20px;
-  }
-  .key_body {
-    margin-top: 10px;
-  }
-  .key_value {
-    width: 320px;
 
-  }
-  button {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-  }
-  li {
-    float: left;    
-    margin-right: -35px;
-  }
-  #s1 {
-    width: 30px;
-    height: 40px;
-  }
+/* #change:visited ~ #Q:before{
+  display: none;
+  content: "Q";
 }
-@media screen and (orientation: portrait){
-  .sub_title:after{
-    content: '아래의 키보드 자판을 터치해 주세요';
-    font-family: 'GmarketSansMedium';
-    color: black;
-    font-size: 20px;
-    word-spacing: -3px;
-  }
-}
-@media screen and (orientation: landscape){
-  .sub_title:after{
-    content: '현재 공사중입니다. 영문 대문자로 키보드를 눌러보시거나 마우스로 눌러보세요.';
-    color: black;
-  }
-}
+
+#change:visited ~ #Q:after{
+  display: block;
+  content: "ㅂ";
+} */

@@ -22,8 +22,12 @@ window.addEventListener("keyup", e => {
   if (key) key.classList.remove('pressed');
 });
 
-$(document).ready(function() {
-  $("#Q").bind("keyup", function() {
-      $(this).val($(this).val().toUpperCase());
-  });
-})
+var change = document.getElementsByClassName("change")[0];
+
+var text = document.getElementsByClassName("Q")[0];
+
+change.addEventListener ("click",function(){
+  if(text.textContent= "ㅂ");
+  
+});
+

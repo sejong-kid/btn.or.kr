@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" /> 
   <title>버튼 가지고 놀기</title>
-  <!-- <link rel="stylesheet" href="mobile.css"> -->
+  <link rel="stylesheet" href="mobile.css">
   <link rel="stylesheet" href="style_1.css">
   <link rel="stylesheet" href="font.css">
 </head>
@@ -19,7 +19,7 @@
     <div class="key_value">
       <li class="num1">
         <span id="key_set">
-          <button onclick="colorChange();" id="Q"> Q </button>
+          <button class="Q" onclick="colorChange();" id="Q"> Q </button>
           <button onclick="colorChange();" id="W"> W </button>
           <button onclick="colorChange();" id="E"> E </button>
           <button onclick="colorChange();" id="R"> R </button>
@@ -53,6 +53,12 @@
           <button onclick="colorChange();" id="B"> B </button>
           <button onclick="colorChange();" id="N"> N </button>
           <button onclick="colorChange();" id="M"> M </button>
+        </span>
+      </li>
+      <li class="ko_eng">
+        <span>
+          <button class="change"> 한/영 </button>
+          <!-- <input onclick="change()" type="button" value="Open Curtain"></input> -->
         </span>
       </li>
     </div>
