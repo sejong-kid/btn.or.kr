@@ -42,3 +42,41 @@ button {
   background: tomato;
   transform: scale(1.2);
 }
+
+@media (max-width: 700px ) {
+  .title {
+    margin-top: 300px;
+    font-size: 100px;
+    word-spacing: -2px;
+    font-family: 'PyeongChangPeace-Bold';
+    color: rgb(29, 29, 29);
+  }
+  .sub_title {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .key_body {
+    margin-top: 30px;
+  }
+  button {
+    width: 40px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 20px;
+  }
+}
+@media screen and (orientation: portrait){
+  .sub_title:after{
+    content: '아래의 키보드 자판을 터치해 주세요';
+    font-family: 'GmarketSansMedium';
+    color: black;
+    font-size: 30px;
+    word-spacing: -3px;
+  }
+}
+@media screen and (orientation: landscape){
+  .sub_title:after{
+    content: '현재 공사중입니다. 영문 대문자로 키보드를 눌러보시거나 마우스로 눌러보세요.';
+    color: black;
+  }
+}
